@@ -30,7 +30,7 @@ server.use(mainRoutes);
 //pagina nao encontrada
 
 server.use((req, res)=>{
-    res.send('pagina nao encontrada!');
+    res.render('pages/404');
 });
 
 //executando servidor
